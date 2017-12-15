@@ -15,7 +15,7 @@ Refer: http://askubuntu.com/questions/778906/problem-playing-hotstar-videos
 # How to use:
 
 1. Open the link of the hotstar video you want to watch (You will see the video player loader rotates for ever!).
-2. Now click on the icon ![Hotstar Icon](./hotstar-linux/master/icon.png =20x) in the extensions block.
+2. Now click on the icon <img src="https://raw.githubusercontent.com/vaikoovery/hotstar-linux/master/icon.png" width="20px" height="20px" alt="Hotstar Icon" /> in the extensions block.
 3. The website https://www.hlsplayer.net will be opened in a new tab.
 
 **Note:**
