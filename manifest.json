@@ -1,10 +1,18 @@
 {
     "manifest_version": 2,
-    "name": "hotstar",
+    "name": "Hotstar HLS Player for Linux",
     "version": "0.2",
+    "short_name": "Hotstar HLS Player",
+    "description": "A extension which will pull m3u8 playlist URL from Hotstar CDN and play in https://www.hlsplayer.net",
     "browser_action": {
-    "default_icon": "icon.png"
+        "default_icon": "icon.png"
     },
+    "icons": {
+        "16": "./icons/icon_16.png",
+        "48": "./icons/icon_48.png",
+        "128": "./icons/icon_128.png"
+    },
+    "author": "Sweta20 & Vaishak Kallore",
     "content_scripts": [
     {
         "matches": [
