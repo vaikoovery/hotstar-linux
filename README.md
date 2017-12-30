@@ -18,5 +18,21 @@ Refer: http://askubuntu.com/questions/778906/problem-playing-hotstar-videos
 2. Now click on the icon <img src="https://raw.githubusercontent.com/vaikoovery/hotstar-linux/master/icon.png" width="20px" height="20px" alt="Hotstar Icon" /> in the extensions block.
 3. The website https://www.hlsplayer.net will be opened in a new tab.
 
-**Note:**
-Allow Flash for the website
+# Flash is needed? How to install flash on my apt?
+
+1. Add following line 
+```
+deb http://archive.canonical.com/ubuntu yakkety partner
+```
+2. to
+```
+/etc/apt/sources.list
+```
+3. and run
+```
+sudo apt update
+```
+4. Finally, run
+```
+sudo apt install adobe-flashplugin
+```
