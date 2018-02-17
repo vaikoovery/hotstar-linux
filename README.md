@@ -20,13 +20,20 @@ Refer: http://askubuntu.com/questions/778906/problem-playing-hotstar-videos
 
 # Flash is needed? How to install flash on my apt?
 
-1. Add following line 
+1. Open `/etc/apt/sources.list` and add 
 ```
 deb http://archive.canonical.com/ubuntu yakkety partner
 ```
-2. to
+to end of file. If following lines are commented, uncomment both.
+1.1 Ubuntu < 16.04
 ```
-/etc/apt/sources.list
+deb http://archive.canonical.com/ubuntu trusty partner
+deb-src http://archive.canonical.com/ubuntu trusty partner
+```
+1.2 In Ubuntu 16.04
+```
+deb http://archive.canonical.com/ubuntu xenial partner
+deb-src http://archive.canonical.com/ubuntu xenial partner
 ```
 3. and run
 ```
